@@ -40,3 +40,17 @@ int main()
     }
     return 0;
 }
+
+/*
+output:
+Enter first number: 5
+Enter second number: 8
+Choose an operation:
+1 for Addition
+2 for Subtraction
+3 for Multiplication
+4 for Division
+Enter your choice (1-4): 1
+Result: 13
+*/
+    
