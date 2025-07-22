@@ -31,3 +31,12 @@ int main(){
     }
     return 0;
 }
+
+/*
+output:
+Enter any number from 1 to 5:5
+Weightlifting
+
+Enter any number from 1 to 5:3
+Squat
+*/  
