@@ -1,6 +1,6 @@
 Aim: To study and implement C++ decision making statements.
 
-Apparatus: Online Compiler C++
+Tool: VS Code
 
 Theory: 
 Program-1: Even/Odd Number Checker
