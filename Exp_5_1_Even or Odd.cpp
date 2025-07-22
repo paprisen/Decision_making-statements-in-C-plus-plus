@@ -12,11 +12,20 @@ int main() {
         cout<<"The number is odd."<<endl;
     }
     else if(a=0){
-        cout<<"the number is zero"<<endl;
+        cout<<"the number is zero."<<endl;
     }
     else{
-        cout<<"The number is even"<<endl;
+        cout<<"The number is even."<<endl;
     }
 
     return 0;
 }
+
+/*
+output:
+Enter the number to check even or odd: 2
+The number is even.
+
+Enter the number to check even or odd: 9
+The number is odd.
+*/
