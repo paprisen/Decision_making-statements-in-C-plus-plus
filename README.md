@@ -3,20 +3,77 @@ Aim: To study and implement C++ decision making statements.
 Tool: VS Code
 
 Theory: 
-Program-1: Even/Odd Number Checker
+Conditional Statements in C++:
+In C++, conditional statements help control the flow of a program. They let the program make decisions and execute different pieces of code depending on whether a condition is true or false. The three main types of conditional structures are: if-else, nested if-else, and switch-case.
 
-This program checks whether a given number is even or odd using modular arithmetic. An even number is any integer divisible by 2 (num % 2 == 0). An odd number is any integer not divisible by 2 (num % 2 != 0). The program uses a simple if-else conditional structure to determine and display the result.
+if-else Statement:
+The if-else statement is the most basic decision-making tool in C++. It runs one block of code when a condition is true, and another block when it's false.
 
-Program-2: Vowel/Consonant Checker
+The if block runs when the condition is true.
+The else block runs when the condition is false.
+This allows a program to make a two-way choice depending on the situation or input.
 
-This program identifies whether an input character is a vowel or consonant. Vowels in English are A, E, I, O, U (both uppercase and lowercase). All other alphabetic characters are consonants. The program uses a compound conditional check with logical OR (||) operators. It checks both lowercase and uppercase vowel cases.
+Nested if-else:
+A nested if-else is when an if or else block contains another if-else structure inside it. This is useful when you need to check multiple conditions in a step-by-step or layered way. It helps in handling more complex decisions where one condition depends on another.
 
-Program-3: Largest of Three Numbers
+Switch-case Statement:
+The switch-case statement is a cleaner way to handle many possible values for a single variable, instead of writing many if-else if blocks.
+The switch evaluates a variable or expression.
+Each case checks for a specific constant value.
+break is used to stop the program from continuing into the next case.
+default runs if none of the cases match.
 
-This program finds the largest among three given numbers using nested conditional statements. It compares each number against the other two sequentially. Uses multiple if conditions with nested ifs to check all possibilities. The logic checks all possible combinations of number magnitudes.
+Using switch-case makes the code easier to read and manage, especially when dealing with things like menus, options, or commands.
 
-Program-5: Calculator
+Program 1: Check Even or Odd
+Algorithm:
 
-This program implements a basic calculator that performs arithmetic operations on two numbers. Takes two floating-point numbers as input. Provides a menu of operations (addition, subtraction, division, multiplication). Uses switch-case to execute the selected operation. Displays the result formatted with input numbers and operation. Includes a default case for invalid operation choices.
+Start
+Input an int num
+If num % 2 == 0, print "Even"
+Else, print "Odd"
+End
 
-Conclusion: Thus, we have used the conditional statements for correct output and switch case for menu-driven program.
+Program 2: Check Vowel or Consonant
+Algorithm:
+
+Start
+Input a character ch
+If ch is a vowel (a, e, i, o, u or A, E, I, O, U), print "Vowel"
+Else, print "Consonant"
+End
+
+Program 3: Identify the Largest Number Among Three (Nested if)
+Algorithm:
+
+Start
+Input three numbers a, b, c
+If a > b and a > c, print "a is largest"
+Else if b > c, print "b is largest"
+Else, print "c is largest"
+End
+
+Program 4: Subject Selector using Switch Case
+Algorithm:
+
+Start
+Display subject menu (1–5)
+Input user choice
+Use switch to print subject name based on choice
+If choice not in 1–5, print "Invalid choice"
+End
+
+Program 5: Basic Arithmetic Calculator using Switch case
+Algorithm:
+
+Start
+Input two numbers a, b
+Display operation menu (+, -, *, /)
+Input user choice
+Use switch to perform selected operation
+If division and b == 0, print "Cannot divide by zero"
+If invalid choice, print "Invalid operation"
+Print result
+End
+
+Conclusion: We learned that if-else is used to check complex conditions and switch-case is suitable for fixed or pre-defined options.
