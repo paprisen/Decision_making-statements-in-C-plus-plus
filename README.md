@@ -1,12 +1,12 @@
-Aim: To study and implement C++ decision making statements.
+# Aim: To study and implement C++ decision making statements.
 
-Tool: VS Code
+## Tool: VS Code
 
-Theory: 
-Conditional Statements in C++:
+## Theory:
+# Conditional Statements in C++:
 In C++, conditional statements help control the flow of a program. They let the program make decisions and execute different pieces of code depending on whether a condition is true or false. The three main types of conditional structures are: if-else, nested if-else, and switch-case.
 
-if-else Statement:
+`if-else` Statement:
 The if-else statement is the most basic decision-making tool in C++. It runs one block of code when a condition is true, and another block when it's false.
 
 The if block runs when the condition is true.
